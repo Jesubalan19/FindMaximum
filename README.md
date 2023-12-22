@@ -11,29 +11,61 @@ To write a program to find the maximum of a list of numbers.
 ## Program:
 
 i)	# To find the maximum of marks using the list method sort.
-```Python
-
+```
+''' 
+Program to mark the maximum of marks using the list method sort
+Developed by: Jesubalan.A
+RegisterNumber: 23013427
+'''
+def max_marks(marks):
+    marks.sort()
+    large = marks[-1]
+    return large
 
 
 ```
 
 ii)	# To find the maximum marks using the list method max().
-```Python
-
+```
+''' 
+''' 
+Program to find the maximum marks using the list method max().
+Developed by: Jesubalan.A
+RegisterNumber: 23013427
+'''
+def max_marks(marks):
+    large=max(marks)
+    return large
 
 
 ```
 
 iii) # To find the maximum marks without using builtin functions.
-```Python
+```
+''' 
+Program to the maximum marks without using builtin functions.
+Developed by: Jesubalan.A
+RegisterNumber: 23013427
+'''
+def max_marks(list1):
+    max = list1[0]
+    for i in list1:
+        if i>max:
+            max = i
+    return max
 
 
 
 ```
-## Sample Input and Output
-![output](./img/max_marks1.jpg) 
 
 ## Output:
+
+i)![Ex 3a i](https://github.com/Jesubalan19/FindMaximum/assets/144979294/d5ede736-542c-41fe-97e7-a01854544eb4)
+
+ii)![Ex 3a ii](https://github.com/Jesubalan19/FindMaximum/assets/144979294/9b5dc175-1ef3-4371-9003-b0a920a9d584)
+
+iii)![Ex 3a iii](https://github.com/Jesubalan19/FindMaximum/assets/144979294/85e73749-e7f3-4698-8ea6-4e406244a6cb)
+
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
